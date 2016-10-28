@@ -35,7 +35,7 @@ class Trahchart {
   var $option_point = ['point_radius', 'point_pointStyle', 'point_backgroundColor', 'point_borderWidth', 'point_borderColor', 'point_hitRadius', 'point_hoverRadius', 'point_hoverBorderWidth'];
   var $option_rectangle = ['rectangle_backgroundColor', 'rectangle_borderWidth', 'rectangle_borderColor', 'rectangle_borderSkipped'];
 
-  function trahchart(){
+  public function __construct() {
     add_action('init', array($this,'AY_register_trahchart_post_type'));
     add_action( 'wp_enqueue_scripts', array($this, 'AY_adding_scripts'));
     add_shortcode( 'trahchart', array($this, 'AY_shortcode'));
