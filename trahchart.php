@@ -507,6 +507,27 @@ function AY_doc_view(){
       <pre style="padding: 1px 12px;" class="shortcode">[trahchart  type='polar_area' id='1']</pre>
     </div>
   </div>
+  <br>
+  <div>
+    <h3><b>Option Examples</b></h3>
+    <div class="postbox" style="width:100%;">
+      <h4 style="padding: 1px 12px;">Global Option</h4>
+      <pre style="padding: 1px 12px;" class="shortcode">General: 'responsive','events','onClick','onResize','responsiveAnimationDuration','maintainAspectRatio','legendCallback'</pre>
+      <pre style="padding: 1px 12px;" class="shortcode">Example how to use it: </pre>
+      <br>
+      <pre style="padding: 1px 12px;" class="shortcode">Title: 'title_display','title_text','title_position','title_fullWidth','title_fontSize','title_fontFamily','title_fontColor','title_fontStyle','title_padding'</pre>
+      <pre style="padding: 1px 12px;" class="shortcode">Example how to use it: </pre>
+      <br>
+      <pre style="padding: 1px 12px;" class="shortcode">Tooltip:
+      'tooltip_enabled','tooltip_custom','tooltip_mode','tooltip_itemSort','tooltip_backgroundColor','tooltip_titleFontFamily','tooltip_titleFontSize','tooltip_titleFontStyle','tooltip_titleFontColor','tooltip_titleSpacing','tooltip_titleMarginBottom','tooltip_bodyFontFamily','tooltip_bodyFontSize','tooltip_bodyFontStyle','tooltip_bodyFontColor',
+      'tooltip_bodySpacing','tooltip_footerFontFamily','tooltip_footerFontSize','tooltip_footerFontStyle','tooltip_footerFontColor','tooltip_footerSpacing','tooltip_footerMarginTop',
+      'tooltip_xPadding','tooltip_yPadding','tooltip_caretSize','tooltip_cornerRadius','tooltip_multiKeyBackground','tooltip_callbacks'</pre>
+      <pre style="padding: 1px 12px;" class="shortcode">Example how to use it: </pre>
+      <br>
+      <pre style="padding: 1px 12px;" class="shortcode">Hover: 'hover_mode','hover_animationDuration','hover_onHover'</pre>
+      <pre style="padding: 1px 12px;" class="shortcode">Example how to use it: </pre>
+    </div>
+  </div>
   <?php
   $content = ob_get_clean();
   echo $content;
